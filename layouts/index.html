@@ -1,0 +1,236 @@
+{{ define "main" }}
+
+<section class="homepage-intro">
+    <h2>Helping humans (and maybe even aliens) understand the modern world.</h2>
+
+    <p>
+        At <strong>Perspectivedia</strong>, we strive to make sense out of complex topics, 
+        whether in global affairs or business.
+    </p>
+
+    <p>
+        By breaking things down with insight and different perspectives, we help people think clearly,
+        make better decisions, and navigate the world with confidence.
+    </p>
+</section>
+
+<div class="brand-grid">
+
+```
+<section class="homepage-section perspectivedia-block">
+    <h1>Perspectivedia</h1>
+
+    <h2>It's all about perspective!</h2>
+
+    <p>
+        What really separates the right from the left?
+    </p>
+
+    <p>
+        More than opposing ideologies, they are different perspectives on some of the world's biggest challenges. These perspectives influence economics, history, politics, public policy, and international relations.
+    </p>
+
+    <p>
+        At Perspectivedia, we explore issues from multiple angles, helping readers understand not only what is happening, but also why people think differently about the same issue.
+    </p>
+</section>
+
+<section class="homepage-section insighting-block">
+    <h1>Insighting</h1>
+
+    <h2>Insightful reads for curious minds</h2>
+
+    <p>
+        <em>"Curiosity killed the cat, but satisfaction brought it back."</em>
+    </p>
+
+    <p>
+        At Insighting, that's exactly what we do.
+    </p>
+
+    <p>
+        While Perspectivedia explores the broader world, Insighting brings that curiosity closer to the world of business. Ever wondered what really happens behind the scenes in businesses - the decisions, challenges, and technical matters shaping industries? We simplify such complex topics keeping you informed - and that’s how we bring the cat back!
+    </p>
+</section>
+```
+
+</div>
+
+<div class="section-title">
+    Explore
+</div>
+
+<div class="explore-grid">
+    <a href="/categories/society/">Society</a>
+    <a href="/categories/economics/">Economics</a>
+    <a href="/categories/history/">History</a>
+    <a href="/categories/geopolitics/">Geopolitics</a>
+    <a href="/categories/travel/">Travel</a>
+    <a href="/categories/insighting/">Insighting</a>
+</div>
+
+<div class="section-title">
+    Featured Perspective
+</div>
+
+{{ range where site.RegularPages ".Params.featured" true }}
+
+<div class="custom-card featured-card">
+    <h2>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+    <p>{{ .Summary }}</p>
+</div>
+
+{{ end }}
+
+<div class="section-title">
+    Latest Perspectives
+</div>
+
+{{ range first 3 site.RegularPages }}
+
+<div class="custom-card">
+    <h3>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h3>
+    <p>{{ .Summary }}</p>
+</div>
+{{ end }}
+
+<div class="mission-section">
+
+    <h2>Our Mission</h2>
+
+    <p>
+        We believe in those <span id="aha-word">Aha!</span> moments - when something just clicks, shifts your perspective, or opens you up to new ones.
+    </p>
+
+    <p>
+        <strong>Our mission? To give you that moment!</strong>
+    </p>
+
+</div>
+
+<div id="aha-secret" class="aha-secret">
+
+    <div class="aha-secret-box">
+
+        <h3>💡 Perspective Seeker</h3>
+
+        <p>
+            Curiosity is the beginning of wisdom.
+        </p>
+
+        <button id="close-secret">Close</button>
+
+    </div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const aha = document.getElementById("aha-word");
+
+let ahaClicks = 0;
+
+aha.addEventListener("click", () => {
+
+    ahaClicks++;
+
+    if(ahaClicks >= 5){
+
+        document
+            .getElementById("aha-secret")
+            .classList.add("show");
+
+        ahaClicks = 0;
+    }
+
+});
+
+    async function cycle() {
+
+        while(true) {
+
+            // Pause on Aha
+            await sleep(2000);
+
+            // Aha exits
+            aha.className = "slide-left-out";
+            await sleep(800);
+
+            // Bulb enters
+            aha.textContent = "💡";
+            aha.className = "slide-right-in";
+            await sleep(800);
+
+            // Bulb settles
+            aha.className = "";
+            await sleep(300);
+
+            // Glow
+            aha.className = "glow";
+            await sleep(1500);
+
+            aha.className = "";
+            await sleep(1200);
+
+            // Bulb exits
+            aha.className = "slide-left-out";
+            await sleep(800);
+
+            // Aha enters
+            aha.textContent = "Aha!";
+            aha.className = "slide-right-in";
+            await sleep(800);
+
+            aha.className = "";
+        }
+    }
+
+    function sleep(ms){
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+cycle();
+
+document
+.getElementById("close-secret")
+?.addEventListener("click", () => {
+
+    document
+        .getElementById("aha-secret")
+        .classList.remove("show");
+
+});
+
+});
+</script>
+
+<section class="contribute-section">
+
+    <h2>Share Your Perspective!</h2>
+
+    <p>
+
+Perspectivedia isn't just a place to read ideas, it's a place to share them.
+
+    <p>
+        Have a perspective worth sharing? We'd love to hear it.
+
+    </p>
+
+    <div class="contact-links">
+
+        <a href="mailto:Perspectivedia@outlook.com">
+    <i class="fas fa-envelope"></i>
+    Mail    
+</a>
+
+    </div>
+
+</section>
+
+{{ end }}

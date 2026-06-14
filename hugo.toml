@@ -1,0 +1,94 @@
+baseURL = "https://perspectivedia.com/"
+locale = "en-US"
+title = "Perspectivedia"
+theme = "PaperMod"
+defaultContentLanguage = "en"
+
+[pagination]
+pagerSize = 12
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+env = "production"
+description = "Perspectivedia explores diverse perspectives on economics, history, geopolitics, society, business, and travel through thoughtful analysis."
+author = "Perspectivedia"
+
+images = ["images/og-image.png"]
+
+
+defaultTheme = "light"
+disableThemeToggle = true
+
+ShowReadingTime = true
+ShowWordCount = true
+ShowShareButtons = true
+ShareButtons = ["linkedin","twitter","whatsapp"]
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+ShowRssButtonInSectionTermList = false
+
+comments = false
+
+[params.label]
+text = "Perspectivedia"
+icon = "/images/Perspectivedia-logo.png"
+iconHeight = 75
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com"
+
+[[params.socialIcons]]
+name = "rss"
+url = "/index.xml"
+
+[[menu.main]]
+name = "Society"
+url = "/categories/society/"
+weight = 10
+
+[[menu.main]]
+name = "Economics"
+url = "/categories/economics/"
+weight = 20
+
+[[menu.main]]
+name = "History"
+url = "/categories/history/"
+weight = 30
+
+[[menu.main]]
+name = "Geopolitics"
+url = "/categories/geopolitics/"
+weight = 40
+
+[[menu.main]]
+name = "Travel"
+url = "/categories/travel/"
+weight = 45
+
+[[menu.main]]
+name = "Insighting"
+url = "/categories/insighting/"
+weight = 50
+
+#[[menu.main]]
+#name = "About"
+#url = "/about/"
+#weight = 60
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false

@@ -1,0 +1,145 @@
+{{ define "main" }}
+
+<div class="category-top">
+
+    <h1>
+{{ if eq .Title "Insighting" }}
+    Insights for Curious Minds
+{{ else }}
+    Perspectives on {{ .Title }}
+{{ end }}
+</h1>
+
+    <div class="category-tools">
+
+    <div class="category-search">
+        <input
+            type="text"
+            id="categorySearch"
+            placeholder="🔍 Search articles..."
+        >
+    </div>
+
+    <button id="sortButton" class="sort-button" title="Sort by date">
+        ⏷
+    </button>
+
+</div>
+
+</div>
+
+<div class="category-line"></div>
+
+<div class="category-posts">
+
+    {{ if gt (len .Pages) 0 }}
+
+        {{ range .Pages }}
+
+        <div
+            class="custom-card article-card"
+            data-date="{{ .Date.Unix }}"
+        >
+
+            <h2>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+
+            <div class="category-meta">
+                {{ .Date.Format "Jan 2, 2006" }}
+                · {{ .ReadingTime }} min read
+                · {{ .Params.author | default "Perspectivedia" }}
+            </div>
+
+            <p>{{ .Summary }}</p>
+
+        </div>
+
+        {{ end }}
+
+    {{ else }}
+
+        <div class="empty-category">
+
+            <h2>This perspective is still taking shape.</h2>
+
+            <p>
+                We're a young publication building a home for thoughtful ideas and fresh perspectives.
+            </p>
+
+            <p>
+                Have a perspective worth sharing?
+            </p>
+
+            <a href="mailto:Perspectivedia@outlook.com" class="share-button">
+                Share yours →
+            </a>
+
+        </div>
+
+    {{ end }}
+
+</div>
+<script>
+
+let newestFirst = true;
+
+document.getElementById("sortButton")
+.addEventListener("click", () => {
+
+    const container =
+        document.querySelector(".category-posts");
+
+    const cards =
+        [...document.querySelectorAll(".article-card")];
+
+    cards.sort((a,b) => {
+
+        const dateA =
+            parseInt(a.dataset.date);
+
+        const dateB =
+            parseInt(b.dataset.date);
+
+        return newestFirst
+            ? dateA - dateB
+            : dateB - dateA;
+    });
+
+    cards.forEach(card =>
+        container.appendChild(card)
+    );
+
+    newestFirst = !newestFirst;
+
+    document.getElementById("sortButton")
+        .textContent = newestFirst ? "⏷" : "⏶";
+});
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const search = document.getElementById("categorySearch");
+
+    search.addEventListener("keyup", () => {
+
+        const value = search.value.toLowerCase();
+
+        document.querySelectorAll(".article-card").forEach(card => {
+
+            const text = card.textContent.toLowerCase();
+
+            card.style.display =
+                text.includes(value)
+                    ? "block"
+                    : "none";
+        });
+
+    });
+
+});
+</script>
+
+{{ end }}

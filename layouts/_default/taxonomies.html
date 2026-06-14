@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<div class="category-header">
+
+    <h1>
+        Perspectives on {{ .Title }}
+    </h1>
+
+</div>
+
+<div class="category-posts">
+
+    {{ range .Pages }}
+
+    <div class="custom-card">
+
+        <h2>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+
+        <p>{{ .Summary }}</p>
+
+    </div>
+
+    {{ end }}
+
+</div>
+
+{{ end }}
