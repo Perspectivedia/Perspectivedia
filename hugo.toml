@@ -51,31 +51,37 @@ name = "rss"
 url = "/index.xml"
 
 [[menu.main]]
+identifier = "society-category"
 name = "Society"
 url = "/categories/society/"
 weight = 10
 
 [[menu.main]]
+identifier = "economics-category"
 name = "Economics"
 url = "/categories/economics/"
 weight = 20
 
 [[menu.main]]
+identifier = "history-category"
 name = "History"
 url = "/categories/history/"
 weight = 30
 
 [[menu.main]]
+identifier = "geopolitics-category"
 name = "Geopolitics"
 url = "/categories/geopolitics/"
 weight = 40
 
 [[menu.main]]
+identifier = "travel-category"
 name = "Travel"
 url = "/categories/travel/"
 weight = 45
 
 [[menu.main]]
+identifier = "insighting-category"
 name = "Insighting"
 url = "/categories/insighting/"
 weight = 50
