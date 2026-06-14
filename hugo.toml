@@ -1,6 +1,7 @@
 baseURL = "https://perspectivedia.com/"
 locale = "en-US"
 title = "Perspectivedia"
+enableRobotsTXT = true
 theme = "PaperMod"
 defaultContentLanguage = "en"
 
