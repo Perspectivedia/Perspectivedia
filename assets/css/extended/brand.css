@@ -1348,7 +1348,7 @@ max-width:800px;
    MOBILE MENU
 ========================================== */
 
-/*.mobile-menu-toggle{
+.mobile-menu-toggle{
     display:none;
 }
 
@@ -1426,7 +1426,7 @@ max-width:800px;
 
     border-bottom:1px solid rgba(0,0,0,.08);
 }
-}*/
+}
 /* ==========================================
    SHARE THIS PERSPECTIVE
 ========================================== */
