@@ -32,7 +32,7 @@ We parked our vehicles and started walking along the path we just found. As like
 
 <div style="text-align:center; margin:40px 0;">
     <img src="/images/indrai trip/2.png"
-         alt="Veer Savarkar"
+         alt="Lush Green Scenery"
          style="max-width:100%; border-radius:12px;">
     <p class="image-caption">
         <em>Lush Green Scenery</em>
