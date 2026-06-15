@@ -37,6 +37,7 @@ We parked our vehicles and started walking along the path we just found. As like
     <p class="image-caption">
         <em>Lush Green Scenery</em>
     </p>
+</div>
 
 After walking for a while the village that we started from was completely out of sight and suddenly one of my companion discovered that he forgot his keys at the vehicle! Without wasting any time we ran to get back the keys. Luckily we found them, returned back and resumed our journey. It was already a walk of approx. 1.5 kms and this back and forth meant that we had actually walked approx. 4.5 kms however, the foothills were still not visible!
 
@@ -48,12 +49,12 @@ In the hopes to find the foothills we walked further on the plane and decided to
 
 <div style="text-align:center; margin:40px 0;">
     <img src="/images/indrai trip/3.png"
-         alt="Veer Savarkar"
+         alt="The dam wall"
          style="max-width:100%; border-radius:12px;">
     <p class="image-caption">
         <em>The dam wall</em>
     </p>
-
+</div>
 We decided to go back to the hut we saw and ask the family for directions. So two of my brave friends went in and came back with the information that foothills started at the end of the plane towards the right, and finally we were on the right track!
 
 ## The climb
@@ -70,7 +71,7 @@ While standing on the plane one could easily see the steps carved into the mount
 
 <div style="text-align:center; margin:40px 0;">
     <img src="/images/indrai trip/4.png"
-         alt="Veer Savarkar"
+         alt="Lush green scenery"
          style="max-width:100%; border-radius:12px;">
     <p><em></em></p>
 </div>
