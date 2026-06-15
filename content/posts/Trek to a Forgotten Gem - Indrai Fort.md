@@ -31,7 +31,7 @@ Following the directions of one kind villager, we reached the end of the village
 We parked our vehicles and started walking along the path we just found. As like any other place in Maharashtra that is untouched by modern roads this place was a mix of ascends, descents, planes and mountains. Mountains were on both the sides and converged at a point (Which was opposite to the village) that marked the natural dead-end. All of this covered in green with small streams of water running from the mountain tops collecting at a point to form a small river gave a perfect flavour of the rainy season!
 
 <div style="text-align:center; margin:40px 0;">
-    <img src="/images/indrai trip/2.png"
+    <img src="/images/Indrai trip/2.png"
          alt="Lush Green Scenery"
          style="max-width:100%; border-radius:12px;">
     <p class="image-caption">
@@ -48,7 +48,7 @@ We saw a lot of cattle grazing on the green fields that spread across the plane 
 In the hopes to find the foothills we walked further on the plane and decided to go towards the mountain on our left as it seemed to have a fort like structure upon it. This way led us to the spot where small streams that ran down from the mountains were collected and formed a river, someone had constructed a dam like structure (perhaps to increase the seepage of water) over which we now stood. There were many tiny crabs waking on the wall of the Dam but there was no sight of foothills.
 
 <div style="text-align:center; margin:40px 0;">
-    <img src="/images/indrai trip/3.png"
+    <img src="/images/Indrai trip/3.png"
          alt="The dam wall"
          style="max-width:100%; border-radius:12px;">
     <p class="image-caption">
@@ -70,7 +70,7 @@ As we were about to leave we saw a group of about 5–10 people approaching us. 
 While standing on the plane one could easily see the steps carved into the mountain that led to the fort. It is like looking at a miracle! The questions about how those people managed building them? Mesmerises the viewers. After a small climb we reached that man-made wonder. These steps were huge (unlike the once we see in the building that we live or work in) and after a certain distance turned right leading towards the grand entrance. The view from here was wonderful, we were almost into the clouds and rain water that was flowing from the top was making it even more beautiful and thrilling!
 
 <div style="text-align:center; margin:40px 0;">
-    <img src="/images/indrai trip/4.png"
+    <img src="/images/Indrai trip/4.png"
          alt="Lush green scenery"
          style="max-width:100%; border-radius:12px;">
     <p><em></em></p>
