@@ -29,11 +29,18 @@
     {{- end }}
   </header>
 
-  <div class="listen-controls">
+<div class="listen-controls">
 
     <button id="listenBtn" class="listen-button">
         🔊 Listen to this Perspective
     </button>
+
+    <select id="speedSelect">
+    <option value="0.75">0.75×</option>
+    <option value="1" selected>1×</option>
+    <option value="1.25">1.25×</option>
+    <option value="1.5">1.5×</option>
+</select>
 
 </div>
 
@@ -41,8 +48,9 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const btn = document.getElementById("listenBtn");
+const speedSelect = document.getElementById("speedSelect");
 
-    if (!btn) return;
+if (!btn) return;
 
     speechSynthesis.getVoices();
 
@@ -119,7 +127,7 @@ const utterance =
             utterance.voice = preferred;
         }
 
-        utterance.rate = 0.92;
+        utterance.rate = parseFloat(speedSelect.value);
         utterance.pitch = 1;
         utterance.volume = 1;
 

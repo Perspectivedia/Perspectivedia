@@ -1552,11 +1552,15 @@ max-width:800px;
 .listen-controls{
     max-width:700px;
     margin:0 auto 25px auto;
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+    flex-wrap:wrap;
 }
 
 .listen-button{
     background:#111111;
-
     color:#ffffff;
 
     border:2px solid rgba(255,255,255,.08);
@@ -1577,9 +1581,40 @@ max-width:800px;
     color:#FFFC00;
 }
 
+#speedSelect{
+    background:#111111;
+    color:#ffffff;
+
+    border:2px solid rgba(255,255,255,.08);
+    border-radius:14px;
+
+    padding:12px 14px;
+
+    font-size:1rem;
+    font-weight:600;
+
+    min-width:90px;
+
+    cursor:pointer;
+
+    transition:all .25s ease;
+}
+
+#speedSelect:hover,
+#speedSelect:focus{
+    border-color:#FFFC00;
+    outline:none;
+}
+
 @media(max-width:768px){
 
-    .listen-button{
+    .listen-controls{
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+    .listen-button,
+    #speedSelect{
         width:100%;
     }
 
