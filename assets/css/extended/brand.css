@@ -1623,3 +1623,11 @@ max-width:800px;
     }
 
 }
+.image-caption {
+    text-align: center !important;
+}
+
+.image-caption em {
+    display: block;
+    text-align: center !important;
+}

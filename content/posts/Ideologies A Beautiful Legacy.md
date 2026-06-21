@@ -1,35 +1,29 @@
 ---
-
 title: "Ideologies A Beautiful Legacy"
 date: 2026-06-01
-featured: True  
+featured: true
 draft: false
 author: "CA Rajas Kavishwar"
 
 categories:
-
-- Society
+  - Society
 
 tags:
+  - Capitalism
+  - Communism
+  - Democracy
+  - Liberalism
+  - History
 
-- Capatalism
-- Communism
-- Democracy
-- Liberalism
-- History
+summary: "What if the left and the right are not enemies, but complementary forces that have helped humanity progress? An interesting perspective, isn't it? The story of India's struggle for independence offers a fascinating example of how these contrasting viewpoints worked together to achieve a common goal: freedom."
 
-summary: "What if the left and the right are not enemies, but complementary forces that have helped humanity progress? An interesting perspective, isn't it? The story of India's struggle for independence offers a fascinating example of how these contrasting viewpoints worked  together achieve a common goal: freedom."
-
-cover:
-image: "/images/Ideologies a beautiful legacy/cover.png"
-alt: "Ideologies a beautiful legacy"
-caption: "Ideologies a beautiful legacy"
------------------------------
+---
 In 20th century the world witnessed a Cold War between two ideological opponents *(i.e. America & USSR)*, but the people with ideological differences helped India attain freedom! How was that possible?
 
 Let’s shed some light on how humanity has used this beautiful legacy of ideologies!
 
 ## The Hindu Militarisation Drive
+
 <div style="text-align:center; margin:40px 0;">
     <img src="/images/Ideologies a beautiful legacy/Veer savarkar.png"
          alt="Veer Savarkar"
@@ -37,10 +31,12 @@ Let’s shed some light on how humanity has used this beautiful legacy of ideolo
     <p class="image-caption">
         <em>Veer Savarkar</em>
     </p>
+</div>
 
 In the pre-Independence period of India, it was a long-standing demand of Vinayak Savarkar (Commonly known as ‘Veer Savarkar’) to militarise Hindus, especially considering the imbalance in the number of Muslims over Hindus in the then Indian Army. He openly promoted this demand even during the time when his ideological opponent Mohandas Gandhi (Commonly known as ‘Mahatma Gandhi’) launched ‘Quit India’ movement in 1942. This stance of Savarkar brought him a lot of criticism from his opponents citing the act as communal in nature. However, his efforts bare fruits and the number of Hindus in Indian Army increased.
 
 ## Azad Hind Fauj
+
 <div style="text-align:center; margin:40px 0;">
     <img src="/images/Ideologies a beautiful legacy/Netaji Subhash Chandra Bose.png"
          alt="Netaji Subhash Chandra Bose"
@@ -48,12 +44,14 @@ In the pre-Independence period of India, it was a long-standing demand of Vinaya
     <p class="image-caption">
         <em>Netaji Subhash Chandra Bose</em>
     </p>
+</div>
 
 After resigning from his post as a President of Indian National Congress in 1939, Subhash Chandra Bose (Commonly known as ‘Netaji Subhash Chandra Bose’) set on a mission to free India from the British rule. This led him to revive the Indian National Army *(INA, also known as ‘Azad Hind Fauj’)* in the year 1943.
 
 Netaji convinced the Japanese to release the Indian war prisoners so that they can wage a war against the British. The plan was to attack the easter frontiers of India starting from 1944. Netaji’s move was very brave; however, the attack was averted by British and in 1945 the INA soldiers surrendered. All the efforts might seem to have failed but they succeeded in causing the events that I have elaborated below in the next section, the impact of which was crucial to end the British rule in India.
 
 ## The Red Fort Trials
+
 <div style="text-align:center; margin:40px 0;">
     <img src="/images/Ideologies a beautiful legacy/Pandit Nehru.png"
          alt="Pandit Jawaharlal Nehru"
@@ -61,6 +59,7 @@ Netaji convinced the Japanese to release the Indian war prisoners so that they c
     <p class="image-caption">
         <em>Pandit Jawaharlal Nehru</em>
     </p>
+</div>
 
 Soon after the surrender, the ‘Red Fort Trial’ began. This was when the leaders like Jawaharlal Nehru came into the support of the INA soldiers. As the hearing was made public, they gathered huge crowds by spreading awareness about the deeds of these soldiers and their ongoing persecution.
 

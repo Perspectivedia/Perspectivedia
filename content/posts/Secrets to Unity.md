@@ -17,12 +17,8 @@ tags:
 - Culture
 - Unity in Diversity
 
-summary: "Understanding India's Unity in Diversity"
+summary: "India's *Unity in Diversity* surprises many. What makes India both culturally diverse and yet remarkably united? Read on to understand the foundations of this unique phenomenon."
 
-cover:
-image: "/images/society/secrets-to-unity-cover.png"
-alt: "India and the secrets of unity"
-caption: "Unity in Diversity"
 -----------------------------
 
 <div style="text-align:center; margin:40px 0;">
@@ -30,11 +26,9 @@ caption: "Unity in Diversity"
          alt="Secrets to Unity"
          style="max-width:100%; border-radius:12px;">
     <p class="image-caption">
-        <em>India's unity in diversity</em>
+        <em></em>
     </p>
-
-India's *Unity in Diversity* surprises many. What makes India both culturally diverse and yet remarkably united? Read on to understand the foundations of this unique phenomenon.
-
+</div>
 
 ## History of Diversity in India
 
@@ -45,6 +39,7 @@ India's *Unity in Diversity* surprises many. What makes India both culturally di
     <p class="image-caption">
         <em>India's unity in diversity</em>
     </p>
+</div>
 
 Cultural diversity in India is the result of several factors operating over a vast span of time:
 
@@ -76,6 +71,7 @@ Thus, we can see how different interpretation of Vedas led to cultural diversity
     <p class="image-caption">
         <em>Khadi, a symbol of unity</em>
     </p>
+</div>
 
 Unity comes from understanding the fact that majority of the diversity in India is in fact the branches of the same tree. Religious tolerance further welcomed the diversity that was brought in by migration & Invasions.
 
