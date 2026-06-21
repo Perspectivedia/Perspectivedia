@@ -2,7 +2,7 @@
 
 title: "Secrets to Unity"
 date: 2025-12-30
-featured: true  
+featured: false  
 draft: false
 author: "CA Rajas Kavishwar"
 
