@@ -20,9 +20,9 @@
         >
     </div>
 
-    <button id="sortButton" class="sort-button" title="Sort by date">
-        ⏷
-    </button>
+    <button id="sortButton" class="sort-button" title="Sort articles">
+    Newest
+</button>
 
 </div>
 
@@ -113,7 +113,7 @@ document.getElementById("sortButton")
     newestFirst = !newestFirst;
 
     document.getElementById("sortButton")
-        .textContent = newestFirst ? "⏷" : "⏶";
+    .textContent = newestFirst ? "Newest" : "Oldest";
 });
 
 </script>
